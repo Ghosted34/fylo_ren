@@ -62,12 +62,8 @@ button, input[type='submit']{
     font-weight: 700;
     color: white;
     transition: all 0.5s ease;
-    background: var(--accent-cyan) ;
+    background-image: linear-gradient(to right, var(--accent-cyan), var(--accent-blue)) ;
     cursor: pointer;
-}
-
-button:hover, input[type='submit']:hover{
-    background: var(--accent-blue); 
 }
 
 header , footer nav{
@@ -214,6 +210,7 @@ header nav a{
     color: var(--accent-cyan);
     border-bottom: solid 1px var(--accent-cyan);
     padding-bottom: 4px;
+    transition: all 0.5s ease;
 }
 
 .how-fylo-works img{
@@ -438,6 +435,9 @@ footer nav{
     height: 25px;
     width: 25px;
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
 
 /* Mobile Styles */
 /* Will Possibly Change */
